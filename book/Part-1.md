@@ -57,7 +57,7 @@ var TRANSACTION_WRAPPERS = [FLUSH_BATCHED_UPDATES, RESET_BATCHED_UPDATES];
 
 Давайте посмотрим на метод, который был обернут в этой транзакции. Что ж, на самом деле он вызывает другую транзакцию...
 
-Alright, we’ve finished Part 1.
+###Мы разобрались с **Часть 1**.
 
 ![1_3](https://raw.githubusercontent.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/236a844a24f38edc8c3d5c2cb9be53d91e0031dc/stack/images/1/part-1.svg)
 
