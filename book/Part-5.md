@@ -36,27 +36,25 @@ transaction.getReactMountReady().enqueue(putListener, {
 
 Окей, после обработчиков событий мы устанавливаем DOM атрибут и значения  DOM свойств. Как и прежде, для атрибутов мы убеждаемся, что они не типа `RESERVED_PROPS`, что они `prop`, как например `children` или `dangerouslySetInnerHTML`.
 
-### Alright, we’ve finished *Part 5*.
+### Мы разобрались с **Часть 5**.
 
-Let’s recap how we got here. Let's look at the scheme one more time, then remove redundant less important pieces, and it becomes this:
+Давайте резюмируем. Взглянем на схему еще раз, удалим ненужные менее важные кусочки и получим:
 
 [![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-A.svg)
 
 <em>5.1 Part 5 simplified (clickable)</em>
 
-And we should probably fix spaces and alignment as well:
+Уберем пробелы и выровняем все:
 
 [![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-B.svg)
 
 <em>5.2 Part 5 simplified & refactored (clickable)</em>
 
-Nice. In fact, that’s all that happens here. So, we can take the essential value from *Part 5* and use it for the final `mounting` scheme:
+Отлично. Вот и все, что здесь происходит. Возьмем самое существенное:
 
 [![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-C.svg)
 
 <em>5.3 Part 5 essential value (clickable)</em>
-
-And then we're done!
 
 
 [To the next page: Part 6 >>](./Part-6.md)
