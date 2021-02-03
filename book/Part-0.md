@@ -1,3 +1,5 @@
+[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0.svg)
+
 *0.0.jpg*
 
 Начнем с вызова ReactDOM.render
@@ -15,11 +17,12 @@ ReactMount
 Монтирование — это процесс инициализации React компонентов путем создания представляющий из DOM элементов и добавления их в предоставленный контейнер (container).
 
 По крайней мере комментарии в коде именно так это и представляют. Но что это все значит на самом деле? Представьте следующую трансформацию
-
+[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-small.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-small.svg)
 *0.1.jpg*
 
 React должен трансформировать ваши компоненты в HTML для того, чтобы вставить их в документ (DOM document). Как он этого добивается? Правильно, ему нужно обработать все пропсы (props), обработчики событий (event handlers), вложенные компоненты (nested components) и логику компонента. Ему необходимо разбить ваше высокоуровневое описание (компонент) в действительно низкоуровневый формат (HTML), который может быть вставлен на веб-страницу. Это и есть монтирование.
 
+[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-big.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-big.svg)
 *0.1 jsx_to_html.jpg*
 
 Продолжим. Но сначала интересный факт! Украсим наше путешествие, чтобы проходить его было веселее.
