@@ -75,19 +75,20 @@ if (inst.componentWillMount) {
 
 ### Alright, we’ve finished *Part 3*.
 
-Let’s recap how we got here. Let's look at the scheme one more time, then remove redundant less important pieces, and it becomes this:
+Давайте резюмируем. Взглянем на схему еще раз, удалим ненужные менее важные кусочки и получим:
+
 
 [![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3-A.svg)
 
 <em>3.1 Part 3 simplified (clickable)</em>
 
-And we should probably fix spaces and alignment as well:
+Уберем пробелы и выровняем все:
 
 [![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3-B.svg)
 
 <em>3.2 Part 3 simplified & refactored (clickable)</em>
 
-Nice. In fact, that’s all that happens here. So, we can take the essential value from *Part 3* and use it for the final `mounting` scheme:
+Отлично. Вот и все, что здесь происходит. Возьмем самое существенное:
 
 [![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3-C.svg)
 
