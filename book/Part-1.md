@@ -64,3 +64,11 @@ var TRANSACTION_WRAPPERS = [FLUSH_BATCHED_UPDATES, RESET_BATCHED_UPDATES];
 ![1_4](https://raw.githubusercontent.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/236a844a24f38edc8c3d5c2cb9be53d91e0031dc/stack/images/1/part-1-B.svg)
 
 ![1_5](https://raw.githubusercontent.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/236a844a24f38edc8c3d5c2cb9be53d91e0031dc/stack/images/1/part-1-C.svg)
+
+[To the next page: Part 2 >>](./Part-2.md)
+
+[<< To the previous page: Part 0](./Part-0.md)
+
+
+[Home](../../README.md)
+
