@@ -79,3 +79,10 @@ https://html.spec.whatwg.org/multipage/syntax.html#parsing-main-inselect
 ![0.3_essential](https://raw.githubusercontent.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/236a844a24f38edc8c3d5c2cb9be53d91e0031dc/stack/images/0/part-0-C.svg)
 
 Ву а ля!
+
+[To the next page: Part 1 >>](./Part-1.md)
+
+[<< To the previous page: Intro](./Intro.md)
+
+
+[Home](../../README.md)
