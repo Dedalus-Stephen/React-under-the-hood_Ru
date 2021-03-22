@@ -46,3 +46,10 @@ var TRANSACTION_WRAPPERS = [
 <em>2.3 Part 2 essential value (clickable)</em>
 
 Готово!
+
+[To the next page: Part 3 >>](./Part-3.md)
+
+[<< To the previous page: Part 1](./Part-1.md)
+
+
+[Home](../../README.md)
